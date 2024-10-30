@@ -8,7 +8,7 @@
  * console.log(coolestTeacher); // Benjamin
  */
 function getCoolestTeacher() {
-    
+    return "Benjamin"
 }
 
 /**
@@ -24,7 +24,7 @@ function getCoolestTeacher() {
  * const anotherResult = multiplyAndAdd(-1, 1, 2); // anotherResult will be 1
  */
 function multiplyAndAdd(a, b, c) {
-
+return (a*b)+c
 }
 
 /**
@@ -38,7 +38,7 @@ function multiplyAndAdd(a, b, c) {
  * const anotherResult = determineType(42); // anotherResult will be "number"
  */
 function determineType(value) {
-
+return typeof(value)
 }
 
 /**
@@ -52,10 +52,12 @@ function determineType(value) {
  * const result = concatenateStringsWithSpace("Hello", "World"); // result will be "Hello World"
  */
 
-function concatenateStringsWithSpace(a, b) {
+function concatenateStringsWithSpace(a, b,) {
 
+    return newstring = a+" "+b
 }
-
+concatenateStringsWithSpace("Hello","World");
+console.log(concatenateStringsWithSpace("hi","there"))
 
 /**
  * This function converts a string to uppercase and adds a smiley at the end of the string
@@ -71,9 +73,11 @@ function concatenateStringsWithSpace(a, b) {
  */
 
 function toUpperCaseWithSmiley(str) {
-
+ newstring = str.toUpperCase()
+    return newstring+":)"
 }
-
+toUpperCaseWithSmiley("Hello")
+console.log(toUpperCaseWithSmiley("world"))
 /**
  * This function repeats a string a specified number of times with spaces in between.
  *
@@ -86,6 +90,6 @@ function toUpperCaseWithSmiley(str) {
  * const anotherRepeated = repeatString("Goodbye", 2); // anotherRepeated will be "Goodbye Goodbye"
  */
 function repeatString(str, times) {
-
+    return str.repeat(times);
 }
-
+console.log(repeatString("HelloThere",3))
